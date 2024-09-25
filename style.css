@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+}
+ th, td {
+    border: 1px solid ;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
+.nama {
+    color: red;
+}
+
+.hobi {
+    background-color: green;
+}
+
+.makanan {
+    background-color: yellow;
+}
+
+.minuman {
+    background-color: red;
+}
+
+.biru {
+    background-color: blue;
+}
+.film {
+    background-color: navy;
+    
+}
+
+a {
+    color: red;
+}
+
+hr {
+    color: black;
+}
+
+
+
+/* Mengatur tata letak center untuk container biodata */
+.untukbiodata {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling untuk judul */
+  h1 {
+    font-size: 36px;
+    color: #333;
+   
+    letter-spacing: 2px;
+  }
+  
+  /* Label form */
+  label {
+    font-weight: bold;
+   
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Input text */
+  input[type="text"], select {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  
+
+  /* Input radio tetap pada layout yang sama */
+  input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Gaya untuk button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+ 
+   /* Menghilangkan garis pada tabel tugas 4 */
+   .tugas4 td, .tugas4 tr {
+    border: none;
+}
+
+/* Menghilangkan border padding jika ada */
+.tugas4 {
+    border-collapse: collapse;
+}
+
+.tugas4 td {
+    padding: 10px; /* Mengatur padding untuk menghindari terlalu rapat */
+}
+
+
+  /* Responsif */
+  @media (max-width: 768px) {
+    .untukbiodata {
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  }
+  
